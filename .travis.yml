@@ -7,6 +7,6 @@ deploy:
     api: https://api.run.pivotal.io 
     organization: oneV 
     space: development 
-    app: hello-app 
+    app: ex1 
     repo: gan27/hello 
     skip_cleanup: true 
