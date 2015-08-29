@@ -44,13 +44,7 @@
         <pathelement location="../apache-tomcat-8.0.26/lib/websocket-api.jar"/>
     </path>
     <target name="init">
-        <mkdir dir="build/classes"/>
-        <copy includeemptydirs="false" todir="build/classes">
-            <fileset dir="src">
-                <exclude name="**/*.launch"/>
-                <exclude name="**/*.java"/>
-            </fileset>
-        </copy>
+        
     </target>
     <target name="clean">
         <delete dir="build/classes"/>
