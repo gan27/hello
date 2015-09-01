@@ -1,5 +1,5 @@
 ---
 applications:
-- name: hello
+- name: helloapp
   memory: 256M
   no-route: true
